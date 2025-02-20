@@ -4,13 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const chatId = document.getElementById('chatId');
     const message = document.getElementById('message');
 
-    // เพิ่ม Event Listener สําหรับปุ่ม "Send Message" โดยให้เรียกใช้ฟังก์ชัน sendMessage เพื่อส่งข้อมูลไปยัง Telegram Message API
+    // เพิ่ม Event Listener สําหรับปุ่ม "Send Message" โดยให้เรียกใช้ฟังก์ชัน sendMessage เพื่อส่งข้อมูลไปยัง Telegram Bot API
     document.getElementById('BtnSend').addEventListener('click', () => {
         sendMessage(botToken.value, chatId.value, message.value);
     });
 });
 
-// สร้างฟังก์ชันสําหรับส่งข้อมูลไปยัง Telegram Message API โดยใช้ fetch API
+// สร้างฟังก์ชันสําหรับส่งข้อมูลไปยัง Telegram Bot API โดยใช้ fetch API
 // โดยจะประกอบไปด้วย Parameter ดังนี้ 
 // botToken : คือ Token ของ Bot ที่ต้องการส่งข้อมูล
 // chatId : คือ ID ของ Chat ที่ต้องการส่งข้อมูล
