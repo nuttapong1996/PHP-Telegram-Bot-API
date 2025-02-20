@@ -1,18 +1,21 @@
-<h1>An example for sending message from PHP to Telegram Bot API via Fetch API</h1>
+<h1>PHP Telegram Bot API</h1>
+<h6>An example for sending message from PHP to Telegram Bot API via Fetch API</h6>
 
 <h5>Requirement</h5>
-  1.Telegram Account
-  2.Bot Token
-  3.Chat ID
-
+<ul>
+  <li>Telegram Account</li>
+  <li>Bot Token</li>
+  <li>Chat ID</li>
+</ul>
 <h5>Usage</h5>
-1.You need BotToken by Add @BotFather in your Telegram then use command "/newbot" to create bot.
-2.You need to create a group for bot to alert the message
-3.Add your Bot to your group then type this command "/start" in your group.
-4.After you got your bot created and put it in your group then use this API link to get chat_id (your group chat id) : https://api.telegram.org/bot<YorBotToken>/getupdates .
-5.Clone this repository and put it in your host directory
-6.Launch this project in browser e.g. "localhost/PHP-Telegram-Bot-API"
-7.Fill the form with your Bot Token and Chat ID to test the result
-
+<ol>
+  <li>You need BotToken by Add @BotFather in your Telegram then use command "/newbot" to create bot.</li>
+  <li>Create a group for a bot</li>
+  <li>Add your Bot to your group then type this command "/start" in your group.</li>
+  <li>Use this API link to get chat_id (your group chat id) : https://api.telegram.org/bot<YorBotToken>/getupdates .</li>
+  <li>Clone this repository and put it in your host directory</li>
+  <li>Launch this project in browser e.g. "localhost/PHP-Telegram-Bot-API"</li>
+  <li>Fill the form with your Bot Token and Chat ID to test the result</li>
+</ol>
 <h6><i>***If you want to test your bot without this repository***</i></h6>
   use this API Link: https://api.telegram.org/bot$BotToken/sendMessage?chat_ud=<YouGroupChatID></YouGroupChatID>
