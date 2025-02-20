@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="api/telegram-ms-api.js"></script>
+    <title>Telegram Message API</title>
+</head>
+<style>
+    div{
+        margin-bottom: 10px;
+    }
+</style>
+<body>
+    <h1>PHP Telegram Message API</h1>
+    <div>
+        <label for="botToken">Bot Token:</label>
+        <input type="text" id="botToken" name="botToken" required>
+    </div>
+    <div>
+        <label for="chatId">Chat ID:</label>
+        <input type="text" id="chatId" name="chatId" required>
+    </div>
+    <div>
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message" required>
+    </div>
+    <button id="BtnSend">Send Message</button>
+</body>
+</html>
