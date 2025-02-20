@@ -30,7 +30,7 @@ $postData = [
 // ทำการกำหนด HHTTP Request Options 
 // โดยกำหนด Header → "Content-Type: application/x-www-form-urlencoded"
 // และ Method ให้เป็น POST
-// ใช้ http_build_query($postData) เพื่อแปลง $postData จาก อาร์เรย์ เป็น สตริงที่ Telegram API เข้าใจ เช่น chat_id=123456789&text=Hello
+// ใช้ http_build_query($postData) เพื่อแปลง $postData จาก อาร์เรย์ เป็น สตริงที่ Telegram Bot API เข้าใจ เช่น chat_id=123456789&text=Hello
 $options = [
     'http' => [
         'header'  => "Content-Type: application/x-www-form-urlencoded\r\n",
