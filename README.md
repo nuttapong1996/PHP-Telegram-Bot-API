@@ -1,5 +1,5 @@
 <h1>PHP Telegram Bot API</h1>
-<h6>An example for sending message from PHP to Telegram Bot API via Fetch API</h6>
+<h6>An example for sending message from PHP to Telegram using Telegram Bot API</h6>
 
 <h5>Requirement</h5>
 <ul>
