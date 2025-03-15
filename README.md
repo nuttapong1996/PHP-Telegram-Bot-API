@@ -20,6 +20,6 @@
   <li>Fill the form with your Bot Token and Chat ID to test the result</li>
 </ol>
 <h5>***If you want to test your bot without this repository***</h6>
-  Use this API Link: https://api.telegram.org/bot#YourBotToken#/sendMessage?chat_id=YouGroupChatID?text=YourMessage
+  Use this API Link: https://api.telegram.org/bot#YourBotToken#/sendMessage?chat_id=YouGroupChatID&text=YourMessage
   <br><br>
-  <blockquote>e.g. https://api.telegram.org/botABCDEF123456/sendMessage?chat_id=-123456?text=Hello</blockquote>
+  <blockquote>e.g. https://api.telegram.org/botABCDEF123456/sendMessage?chat_id=-123456&text=Hello</blockquote>
